@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2924FD0C226CE4D100CA8BF5 /* HTTPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2924FD0B226CE4D100CA8BF5 /* HTTPHandler.swift */; };
+		2924FD0E226CE75700CA8BF5 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2924FD0D226CE75700CA8BF5 /* JSONParser.swift */; };
+		2924FD10226CE88C00CA8BF5 /* MovieDataProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2924FD0F226CE88C00CA8BF5 /* MovieDataProcessor.swift */; };
 		29F7134C226BD38000E34D59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F7134B226BD38000E34D59 /* AppDelegate.swift */; };
 		29F7134E226BD38000E34D59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F7134D226BD38000E34D59 /* ViewController.swift */; };
 		29F71351226BD38000E34D59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29F7134F226BD38000E34D59 /* Main.storyboard */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2924FD0B226CE4D100CA8BF5 /* HTTPHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPHandler.swift; sourceTree = "<group>"; };
+		2924FD0D226CE75700CA8BF5 /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
+		2924FD0F226CE88C00CA8BF5 /* MovieDataProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDataProcessor.swift; sourceTree = "<group>"; };
 		29F71348226BD38000E34D59 /* movies-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "movies-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		29F7134B226BD38000E34D59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29F7134D226BD38000E34D59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +75,9 @@
 				29F71357226BD38100E34D59 /* Info.plist */,
 				29F7135D226BD6F600E34D59 /* CustomTableViewCell.swift */,
 				29F7135F226BD89A00E34D59 /* Movie.swift */,
+				2924FD0B226CE4D100CA8BF5 /* HTTPHandler.swift */,
+				2924FD0D226CE75700CA8BF5 /* JSONParser.swift */,
+				2924FD0F226CE88C00CA8BF5 /* MovieDataProcessor.swift */,
 			);
 			path = "movies-app";
 			sourceTree = "<group>";
@@ -146,8 +155,11 @@
 			files = (
 				29F71362226BE31900E34D59 /* SearchViewController.swift in Sources */,
 				29F7135E226BD6F600E34D59 /* CustomTableViewCell.swift in Sources */,
+				2924FD0E226CE75700CA8BF5 /* JSONParser.swift in Sources */,
 				29F7134E226BD38000E34D59 /* ViewController.swift in Sources */,
 				29F71360226BD89A00E34D59 /* Movie.swift in Sources */,
+				2924FD10226CE88C00CA8BF5 /* MovieDataProcessor.swift in Sources */,
+				2924FD0C226CE4D100CA8BF5 /* HTTPHandler.swift in Sources */,
 				29F7134C226BD38000E34D59 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
